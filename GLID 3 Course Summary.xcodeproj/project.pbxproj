@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E7F16A1C20B724009ACA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7F1691C20B724009ACA70 /* AppDelegate.swift */; };
+		C4E7F16C1C20B724009ACA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7F16B1C20B724009ACA70 /* ViewController.swift */; };
+		C4E7F16F1C20B724009ACA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E7F16D1C20B724009ACA70 /* Main.storyboard */; };
+		C4E7F1721C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4E7F1701C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodeld */; };
+		C4E7F1741C20B724009ACA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E7F1731C20B724009ACA70 /* Assets.xcassets */; };
+		C4E7F1771C20B724009ACA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E7F1751C20B724009ACA70 /* LaunchScreen.storyboard */; };
+		C4E7F1821C20B725009ACA70 /* GLID_3_Course_SummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7F1811C20B725009ACA70 /* GLID_3_Course_SummaryTests.swift */; };
+		C4E7F18D1C20B725009ACA70 /* GLID_3_Course_SummaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7F18C1C20B725009ACA70 /* GLID_3_Course_SummaryUITests.swift */; };
+		C4F29D871C25ECC000266851 /* NSURLSession+Async download DEMOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F29D861C25ECC000266851 /* NSURLSession+Async download DEMOTableViewController.swift */; };
+		C4F29D891C263AC900266851 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F29D881C263AC900266851 /* placeholder.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E7F17E1C20B725009ACA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E7F15E1C20B724009ACA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E7F1651C20B724009ACA70;
+			remoteInfo = "GLID 3 Course Summary";
+		};
+		C4E7F1891C20B725009ACA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E7F15E1C20B724009ACA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E7F1651C20B724009ACA70;
+			remoteInfo = "GLID 3 Course Summary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E7F1661C20B724009ACA70 /* GLID 3 Course Summary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLID 3 Course Summary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E7F1691C20B724009ACA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4E7F16B1C20B724009ACA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E7F16E1C20B724009ACA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E7F1711C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GLID_3_Course_Summary.xcdatamodel; sourceTree = "<group>"; };
+		C4E7F1731C20B724009ACA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E7F1761C20B724009ACA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E7F1781C20B724009ACA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E7F17D1C20B725009ACA70 /* GLID 3 Course SummaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLID 3 Course SummaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E7F1811C20B725009ACA70 /* GLID_3_Course_SummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLID_3_Course_SummaryTests.swift; sourceTree = "<group>"; };
+		C4E7F1831C20B725009ACA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E7F1881C20B725009ACA70 /* GLID 3 Course SummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLID 3 Course SummaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E7F18C1C20B725009ACA70 /* GLID_3_Course_SummaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLID_3_Course_SummaryUITests.swift; sourceTree = "<group>"; };
+		C4E7F18E1C20B725009ACA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F29D861C25ECC000266851 /* NSURLSession+Async download DEMOTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Async download DEMOTableViewController.swift"; sourceTree = "<group>"; };
+		C4F29D881C263AC900266851 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E7F1631C20B724009ACA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7F17A1C20B725009ACA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7F1851C20B725009ACA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E7F15D1C20B724009ACA70 = {
+			isa = PBXGroup;
+			children = (
+				C4E7F1681C20B724009ACA70 /* GLID 3 Course Summary */,
+				C4E7F1801C20B725009ACA70 /* GLID 3 Course SummaryTests */,
+				C4E7F18B1C20B725009ACA70 /* GLID 3 Course SummaryUITests */,
+				C4E7F1671C20B724009ACA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E7F1671C20B724009ACA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E7F1661C20B724009ACA70 /* GLID 3 Course Summary.app */,
+				C4E7F17D1C20B725009ACA70 /* GLID 3 Course SummaryTests.xctest */,
+				C4E7F1881C20B725009ACA70 /* GLID 3 Course SummaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E7F1681C20B724009ACA70 /* GLID 3 Course Summary */ = {
+			isa = PBXGroup;
+			children = (
+				C4F29D851C25E6F500266851 /* NSURLSessionDemo */,
+				C4E7F1691C20B724009ACA70 /* AppDelegate.swift */,
+				C4E7F16B1C20B724009ACA70 /* ViewController.swift */,
+				C4E7F16D1C20B724009ACA70 /* Main.storyboard */,
+				C4E7F1731C20B724009ACA70 /* Assets.xcassets */,
+				C4E7F1751C20B724009ACA70 /* LaunchScreen.storyboard */,
+				C4E7F1781C20B724009ACA70 /* Info.plist */,
+				C4E7F1701C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodeld */,
+				C4F29D881C263AC900266851 /* placeholder.png */,
+			);
+			path = "GLID 3 Course Summary";
+			sourceTree = "<group>";
+		};
+		C4E7F1801C20B725009ACA70 /* GLID 3 Course SummaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E7F1811C20B725009ACA70 /* GLID_3_Course_SummaryTests.swift */,
+				C4E7F1831C20B725009ACA70 /* Info.plist */,
+			);
+			path = "GLID 3 Course SummaryTests";
+			sourceTree = "<group>";
+		};
+		C4E7F18B1C20B725009ACA70 /* GLID 3 Course SummaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E7F18C1C20B725009ACA70 /* GLID_3_Course_SummaryUITests.swift */,
+				C4E7F18E1C20B725009ACA70 /* Info.plist */,
+			);
+			path = "GLID 3 Course SummaryUITests";
+			sourceTree = "<group>";
+		};
+		C4F29D851C25E6F500266851 /* NSURLSessionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C4F29D861C25ECC000266851 /* NSURLSession+Async download DEMOTableViewController.swift */,
+			);
+			name = NSURLSessionDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E7F1651C20B724009ACA70 /* GLID 3 Course Summary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E7F1911C20B725009ACA70 /* Build configuration list for PBXNativeTarget "GLID 3 Course Summary" */;
+			buildPhases = (
+				C4E7F1621C20B724009ACA70 /* Sources */,
+				C4E7F1631C20B724009ACA70 /* Frameworks */,
+				C4E7F1641C20B724009ACA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLID 3 Course Summary";
+			productName = "GLID 3 Course Summary";
+			productReference = C4E7F1661C20B724009ACA70 /* GLID 3 Course Summary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E7F17C1C20B725009ACA70 /* GLID 3 Course SummaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E7F1941C20B725009ACA70 /* Build configuration list for PBXNativeTarget "GLID 3 Course SummaryTests" */;
+			buildPhases = (
+				C4E7F1791C20B725009ACA70 /* Sources */,
+				C4E7F17A1C20B725009ACA70 /* Frameworks */,
+				C4E7F17B1C20B725009ACA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E7F17F1C20B725009ACA70 /* PBXTargetDependency */,
+			);
+			name = "GLID 3 Course SummaryTests";
+			productName = "GLID 3 Course SummaryTests";
+			productReference = C4E7F17D1C20B725009ACA70 /* GLID 3 Course SummaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E7F1871C20B725009ACA70 /* GLID 3 Course SummaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E7F1971C20B725009ACA70 /* Build configuration list for PBXNativeTarget "GLID 3 Course SummaryUITests" */;
+			buildPhases = (
+				C4E7F1841C20B725009ACA70 /* Sources */,
+				C4E7F1851C20B725009ACA70 /* Frameworks */,
+				C4E7F1861C20B725009ACA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E7F18A1C20B725009ACA70 /* PBXTargetDependency */,
+			);
+			name = "GLID 3 Course SummaryUITests";
+			productName = "GLID 3 Course SummaryUITests";
+			productReference = C4E7F1881C20B725009ACA70 /* GLID 3 Course SummaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E7F15E1C20B724009ACA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Medigarage Studios LTD";
+				TargetAttributes = {
+					C4E7F1651C20B724009ACA70 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UW9MD7S532;
+					};
+					C4E7F17C1C20B725009ACA70 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UW9MD7S532;
+						TestTargetID = C4E7F1651C20B724009ACA70;
+					};
+					C4E7F1871C20B725009ACA70 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UW9MD7S532;
+						TestTargetID = C4E7F1651C20B724009ACA70;
+					};
+				};
+			};
+			buildConfigurationList = C4E7F1611C20B724009ACA70 /* Build configuration list for PBXProject "GLID 3 Course Summary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E7F15D1C20B724009ACA70;
+			productRefGroup = C4E7F1671C20B724009ACA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E7F1651C20B724009ACA70 /* GLID 3 Course Summary */,
+				C4E7F17C1C20B725009ACA70 /* GLID 3 Course SummaryTests */,
+				C4E7F1871C20B725009ACA70 /* GLID 3 Course SummaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E7F1641C20B724009ACA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E7F1771C20B724009ACA70 /* LaunchScreen.storyboard in Resources */,
+				C4E7F1741C20B724009ACA70 /* Assets.xcassets in Resources */,
+				C4F29D891C263AC900266851 /* placeholder.png in Resources */,
+				C4E7F16F1C20B724009ACA70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7F17B1C20B725009ACA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7F1861C20B725009ACA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E7F1621C20B724009ACA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E7F16C1C20B724009ACA70 /* ViewController.swift in Sources */,
+				C4F29D871C25ECC000266851 /* NSURLSession+Async download DEMOTableViewController.swift in Sources */,
+				C4E7F1721C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodeld in Sources */,
+				C4E7F16A1C20B724009ACA70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7F1791C20B725009ACA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E7F1821C20B725009ACA70 /* GLID_3_Course_SummaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7F1841C20B725009ACA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E7F18D1C20B725009ACA70 /* GLID_3_Course_SummaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E7F17F1C20B725009ACA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E7F1651C20B724009ACA70 /* GLID 3 Course Summary */;
+			targetProxy = C4E7F17E1C20B725009ACA70 /* PBXContainerItemProxy */;
+		};
+		C4E7F18A1C20B725009ACA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E7F1651C20B724009ACA70 /* GLID 3 Course Summary */;
+			targetProxy = C4E7F1891C20B725009ACA70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E7F16D1C20B724009ACA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E7F16E1C20B724009ACA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E7F1751C20B724009ACA70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E7F1761C20B724009ACA70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E7F18F1C20B725009ACA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4E7F1901C20B725009ACA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E7F1921C20B725009ACA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GLID 3 Course Summary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.GLID-3-Course-Summary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E7F1931C20B725009ACA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GLID 3 Course Summary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.GLID-3-Course-Summary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E7F1951C20B725009ACA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GLID 3 Course SummaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.GLID-3-Course-SummaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLID 3 Course Summary.app/GLID 3 Course Summary";
+			};
+			name = Debug;
+		};
+		C4E7F1961C20B725009ACA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GLID 3 Course SummaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.GLID-3-Course-SummaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLID 3 Course Summary.app/GLID 3 Course Summary";
+			};
+			name = Release;
+		};
+		C4E7F1981C20B725009ACA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLID 3 Course SummaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.GLID-3-Course-SummaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GLID 3 Course Summary";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4E7F1991C20B725009ACA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLID 3 Course SummaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.GLID-3-Course-SummaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GLID 3 Course Summary";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E7F1611C20B724009ACA70 /* Build configuration list for PBXProject "GLID 3 Course Summary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E7F18F1C20B725009ACA70 /* Debug */,
+				C4E7F1901C20B725009ACA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E7F1911C20B725009ACA70 /* Build configuration list for PBXNativeTarget "GLID 3 Course Summary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E7F1921C20B725009ACA70 /* Debug */,
+				C4E7F1931C20B725009ACA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E7F1941C20B725009ACA70 /* Build configuration list for PBXNativeTarget "GLID 3 Course SummaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E7F1951C20B725009ACA70 /* Debug */,
+				C4E7F1961C20B725009ACA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E7F1971C20B725009ACA70 /* Build configuration list for PBXNativeTarget "GLID 3 Course SummaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E7F1981C20B725009ACA70 /* Debug */,
+				C4E7F1991C20B725009ACA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4E7F1701C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4E7F1711C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodel */,
+			);
+			currentVersion = C4E7F1711C20B724009ACA70 /* GLID_3_Course_Summary.xcdatamodel */;
+			path = GLID_3_Course_Summary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4E7F15E1C20B724009ACA70 /* Project object */;
+}
